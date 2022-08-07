@@ -1,0 +1,262 @@
+*,html,body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+.btn {
+  cursor: pointer;
+}
+.offer {
+  background-color: #eceb98;
+  text-align: center;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.offer.part1 {
+  flex-grow: 1;
+}
+.offer.part1 span {
+  font-weight: lighter;
+}
+.offer strong {
+  font-size: 23px;
+}
+
+/******* nav ********/
+.nav-bar {
+  box-shadow: 0px 5px 5px 1px rgb(182, 182, 182);
+}
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+.nav-bar ul li {
+  padding: 5px;
+}
+.bars {
+  display: none;
+}
+.udemy-logo {
+  width: 90px;
+  height: 60px;
+}
+.search-bar {
+  flex-grow: 1;
+}
+.search-bar-form {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: #f7f9fa;
+}
+.search-icon {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  cursor: pointer;
+  background-color: #f7f9fa;
+}
+.search-input {
+  border: none;
+  height: 40px;
+  background-color: #f7f9fa;
+  padding: 5px;
+  width: 100%;
+  border-radius: 50px;
+  outline: none;
+}
+
+.btn-login,
+.btn-signin {
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+}
+.btn-login {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+.btn-signin {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+.net-logo div {
+  border: 1px solid black;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*****header****/
+.header {
+  width: 100%;
+  position: relative;
+}
+.alarm{
+  background-image:url(./image/udemy-alarm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:400px
+}
+.bck-grnd-header {
+  background-image: url("./image/header2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:400px
+
+}
+.bck-grnd-header img {
+  width: 100%;
+}
+.new-to-udemy {
+  padding: 20px;
+}
+
+
+
+.new-to-udemy .title {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 700px) {
+  .new-to-udemy {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-color: white;
+    box-shadow: 1px 5px 10px 0px rgb(219, 219, 219);
+    width: 21em;
+  }
+}
+
+/***** courses *****/
+
+.courses-section{
+  padding: 10px;
+}
+
+.lst-of-courses{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lst-of-courses .type-of-corses{
+  padding:10px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.lst-of-courses .type-of-corses{
+  color: gray;
+}
+.active{
+  color: black !important;
+}
+
+.show-courses{
+  padding: 10px;
+  border: 1px solid rgb(187, 187, 187);
+  font-family: sans-serif;
+}
+.hder-of-courses-section{
+  width:55%;
+}
+.hder-of-courses-section div{
+  padding: 10px;
+}
+.hder-of-courses-section .title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.hder-of-courses-section .details{
+  color: gray
+}
+
+.btn-Explore{
+  border:1px solid black;
+  background-color: white;
+  color:black;
+  
+  margin: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+  padding:10px;
+}
+
+.lst-courses{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-img img{
+  width:100%;
+  border:1px solid rgb(214, 214, 214);
+}
+.card{
+  width:249px;
+  margin:0 5px;
+}
+.card-info div{
+  padding:5px 0 0 0;
+  font-weight: bold;
+}
+.card-info .card-title{
+  padding:10px 0 0 0;
+}
+
+.card-info .card-auther{
+  font-size: 15px;
+  color:gray;
+  font-weight: 100;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .nav-bar ul {
+    justify-content: space-between;
+  }
+  .nav-lst {
+    display: none;
+  }
+  .logo,.bars {
+    display: block;
+  }
+  .hder-of-courses-section{
+    width:100%;
+  }
+  .bck-grnd-header {
+    background-image: url("./image/header3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:400px
+  
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .bck-grnd-header {
+    height:600px;
+  }
+}
