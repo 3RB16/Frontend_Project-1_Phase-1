@@ -105,26 +105,33 @@ li {
   justify-content: center;
   align-items: center;
 }
-/*****header****/
+/***** header ****/
 
 .header {
   width: 100%;
   position: relative;
 }
-.alarm{
-  background-image:url(./image/udemy-alarm.jpg);
+.back-ground-header {
+  background-image: url("./image/udemy-alarm.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height:400px
+  height:400px;
+
+}
+.back-ground-header img {
+  width: 100%;
+}
+.new-to-udemy {
+  padding: 20px;
 }
 
-@media (max-width: 100px) {
-  .alarm {
-      background-image: url(./image/udemy-alarm.jpg);
-  }
+
+.new-to-udemy .title {
+  font-size: 30px;
 }
+
 
 
 /***** courses *****/
@@ -207,6 +214,16 @@ li {
   font-weight: 100;
 }
 
+@media only screen and (min-width: 700px) {
+  .new-to-udemy {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-color: white;
+    box-shadow: 1px 5px 10px 0px rgb(219, 219, 219);
+    width: 21em;
+  }
+}
 
 
 
