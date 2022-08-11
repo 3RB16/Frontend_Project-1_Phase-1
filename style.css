@@ -240,18 +240,17 @@ li {
   .hder-of-courses-section{
     width:100%;
   }
-  .bck-grnd-header {
-    background-image: url("./image/header3.jpg");
+  .back-ground-header {
+    background-image: url("./image/udemy-alarm.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height:400px
-  
+    height:400px;
   }
 }
 @media only screen and (min-width: 1700px) {
-  .bck-grnd-header {
+  .back-ground-header {
     height:600px;
   }
 }
