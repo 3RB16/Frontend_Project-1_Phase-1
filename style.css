@@ -122,7 +122,6 @@ li {
   background-repeat: no-repeat;
   width: 100%;
   height:400px;
-
 }
 .back-ground-header img {
   width: 100%;
@@ -194,7 +193,7 @@ li {
 
 .lst-courses{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .card-img img{
@@ -204,7 +203,7 @@ li {
 .card{
   width:249px;
   margin:0 5px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 .card-info div{
@@ -221,7 +220,7 @@ li {
   font-weight: 100;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 200px) {
   .new-to-udemy {
     position: absolute;
     top: 15%;
@@ -241,26 +240,37 @@ li {
 
 @media only screen and (max-width: 640px) {
   .nav-bar ul {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .nav-lst .search-bar-form , .category{
     display: none;
     flex: wrap;
     font-size: auto;
   }
+
   .logo,
   .bars {
     display: block;
   }
+
   .hder-of-courses-section{
     width:100%;
   }
+
   .back-ground-header {
     background-image: url("./image/udemy-alarm.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height:600px;
+    width: auto;
+    height:275px;
+  }
+  .new-to-udemy {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-color: white;
+    box-shadow: 1px 5px 10px 0px rgb(219, 219, 219);
+    width: 21em;
   }
 }
