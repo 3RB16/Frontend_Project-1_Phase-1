@@ -194,11 +194,8 @@ li {
 
 .lst-courses{
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2.5rem;
-  flex-direction: row;
-  margin-right: 0%;
-  margin-left: 0%;
 }
 .card-img img{
   width:100%;
@@ -267,7 +264,3 @@ li {
     height:600px;
   }
 }
-
-
-
-
