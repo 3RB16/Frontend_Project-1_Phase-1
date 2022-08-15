@@ -267,10 +267,10 @@ li {
   }
   .new-to-udemy {
     position: absolute;
-    top: 15%;
-    left: 5%;
+    bottom: 30%;
+    left: 2%;
     background-color: white;
     box-shadow: 1px 5px 10px 0px rgb(219, 219, 219);
-    width: 21em;
+    width: 13em;
   }
 }
